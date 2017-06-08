@@ -129,7 +129,7 @@ def iHouse_crawler():
     if number_of_house > 0:
 
         GMAIL_USERNAME = 'alexleethinker@gmail.com'
-        GMAIL_PASSWORD = 'lz8674168'
+        GMAIL_PASSWORD = '***********'
         email_subject = u'小小霖快来看，廉租房有更新啦'.encode('utf-8')
         recipient = 'chulinxue@gmail.com'
         message = 'Subject: %s\n\n%s' % (email_subject, email_content)
